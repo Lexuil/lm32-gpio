@@ -1,6 +1,25 @@
+#include "soc-hw.h"
+
+int main(){
+	
+	gpio_config_dir(0xFF);
+	
+	while(1){
+		gpio_write(0xFF);
+		msleep(2);
+		gpio_write(00);
+		msleep(18);
+	}
+	
+}
+
+
+
+
+
+
 /**
  * 
- */
 
 #include "soc-hw.h"
 
@@ -159,9 +178,14 @@ i2c_init();
 	}
 */
 
+/*
+
 	uart_putstr("Entering Echo Test...\n");
 	while (1) {
 	   uart_putchar(uart_getchar());
 	}
 }
+
+ */
+
 

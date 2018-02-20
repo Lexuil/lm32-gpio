@@ -10,6 +10,19 @@ isr_ptr_t isr_table[32];
 
 void tic_isr();
 /***************************************************************************
+ * GPIO
+ */
+
+void gpio_config_dir(uint32_t vdir){	//configira la direccion del pin
+	gpio0 -> dir = vdir;
+}
+
+void gpio_write(uint32_t vpins){	//escribe en el pin
+	gpio0 -> wr = vpins;
+}
+
+
+/***************************************************************************
  * IRQ handling
  */
 void isr_null()

@@ -1,7 +1,7 @@
-INFILE=/home/sebastian/Documentos/UN/Digital/Digital II/lm32_soc_HDL/build/system-routed.ncd
-OUTFILE=/home/sebastian/Documentos/UN/Digital/Digital II/lm32_soc_HDL/build/system.bit
-FAMILY=Artix7
-PART=xc7a100t-3csg324
-WORKINGDIR=/home/sebastian/Documentos/UN/Digital/Digital II/lm32_soc_HDL/build
+INFILE=/home/lexuil/Documents/Github/lm32_soc_HDL/build/system-routed.ncd
+OUTFILE=/home/lexuil/Documents/Github/lm32_soc_HDL/build/system.bit
+FAMILY=Spartan6
+PART=xc6slx4-2tqg144
+WORKINGDIR=/home/lexuil/Documents/Github/lm32_soc_HDL/build
 LICENSE=WebPack
-USER_INFO=210656542_0_0_533
+USER_INFO=211315887_0_0_657

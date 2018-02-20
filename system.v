@@ -10,7 +10,7 @@ module system
 //	parameter   bootram_file     = "../firmware/arch_examples/image.ram",
 //	parameter   bootram_file     = "../firmware/boot0-serial/image.ram",
 	parameter   bootram_file     = "../firmware/hw-test/image.ram",
-	parameter   clk_freq         = 100000000,
+	parameter   clk_freq         = 50000000,
 	parameter   uart_baud_rate   = 115200
 ) (
 	input             clk,
@@ -27,7 +27,8 @@ module system
 	output            spi_clk,
 	// 12c
 	inout             i2c_sda, 
-	inout             i2c_scl
+	inout             i2c_scl,
+	output      gpio0_io
 	
 
 );
@@ -408,7 +409,7 @@ wb_timer #(
 // General Purpose IO
 //---------------------------------------------------------------------------
 
-wire [7:0] gpio0_io;
+//wire [7:0] gpio0_io;
 wire        gpio0_irq;
 
 wb_gpio gpio0 (
