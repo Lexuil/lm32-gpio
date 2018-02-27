@@ -79,6 +79,7 @@ typedef struct {
 
 void gpio_config_dir(uint32_t vdir);
 void gpio_write(uint32_t vpins);
+uint32_t gpio_read();
 
 /***************************************************************************
  * UART0

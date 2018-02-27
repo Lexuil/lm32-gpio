@@ -28,7 +28,7 @@ module system
 	// 12c
 	inout             i2c_sda, 
 	inout             i2c_scl,
-	output      gpio0_io
+	inout [7:0]     gpio0_io
 	
 
 );

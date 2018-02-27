@@ -11,7 +11,7 @@ NET "clk" LOC = "P84" | IOSTANDARD = LVCMOS33;
 #NET "led"	LOC = "T8"	| IOSTANDARD = "LVCMOS33";
 
 # ===== GPIO =====
-NET "gpio0_io" LOC = P79 | IOSTANDARD = "LVCMOS33";
+NET "gpio0_io<0>" LOC = P79 | IOSTANDARD = "LVCMOS33";
 
 
 # ==== UART ====

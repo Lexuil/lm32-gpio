@@ -21,6 +21,10 @@ void gpio_write(uint32_t vpins){	//escribe en el pin
 	gpio0 -> wr = vpins;
 }
 
+uint32_t gpio_read(){	//escribe en el pin
+	return gpio0 -> rd;
+}
+
 
 /***************************************************************************
  * IRQ handling
