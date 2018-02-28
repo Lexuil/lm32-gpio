@@ -75,7 +75,6 @@ int main(){
 			
 		if(ut == MAX_UT){
 			ut = 0;
-			gpio_write(0xFF);
 		}
 	}
 	
